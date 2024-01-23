@@ -110,6 +110,12 @@ header, main{
 
 
 
+
+
+
+
+
+
 @media screen and (max-width:600px) {
     .btn-primary1{
         padding: 6px 15px;
@@ -139,6 +145,13 @@ header, main{
     .width-card{
         width: 100%!important;
     }
+    /* program section */
+    .program-section {
+        grid-template-columns: repeat(1, minmax(0, 1fr))!important;
+    }
+    .width-card{
+        width: 100%!important;
+    }
 }
 
 
@@ -149,6 +162,9 @@ header, main{
 
 @media screen and (min-width:600px) and (max-width:992px){
 
+    header, main{
+        padding: 0 80px;
+    }
     .common h3{
         font-size: 32px!important;
     }
