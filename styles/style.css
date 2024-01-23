@@ -56,6 +56,33 @@ header, main{
 
 
 
+/* Banner Section */
+.align-text-img{
+    position: relative;
+}
+.align-text{
+    overflow: hidden;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-4%, -77%);
+    background: #131318;
+    padding: 2rem;
+    color: var(--white-color);
+    border-radius: 1rem;
+}
+.align-text2{
+    overflow: hidden;
+    width: 100%;
+    background: #131318;
+    padding: 1rem;
+    color: var(--white-color);
+    border-radius: .75rem;
+}
+
+
+
+
 
 @media screen and (max-width:600px) {
     .btn-primary1{
@@ -64,5 +91,12 @@ header, main{
     }
     header, main{
         padding: 0 20px;
+    }
+    .align-text{
+        position: absolute;
+        background: #131318;
+        padding: 1rem;
+        color: var(--white-color);
+        border-radius: .75rem;
     }
 }
