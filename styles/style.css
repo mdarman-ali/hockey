@@ -82,6 +82,32 @@ header, main{
 
 
 
+/* Common header */
+.common{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+    text-align: center;
+    margin: 100px auto;
+    max-width: 607px;
+    
+}
+
+.common h3{
+    grid-column: span 12;
+    color: var(--primary-color);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.common p{
+    grid-column: span 12;
+    margin-bottom: 24px;
+    font-size: var(--secondary-font-size);
+    color: var(--secondary-color);
+    margin-top: 0;
+}
+
 
 
 @media screen and (max-width:600px) {
@@ -98,5 +124,36 @@ header, main{
         padding: 1rem;
         color: var(--white-color);
         border-radius: .75rem;
+    }
+    .common h3{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .common p{
+        font-size: 14px;
+    }
+    /* Radial Progress bar */
+    .grid-cols-4 {
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    }
+    .width-card{
+        width: 100%!important;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (min-width:600px) and (max-width:992px){
+
+    .common h3{
+        font-size: 32px!important;
+    }
+    /* Radial Progress bar */
+    .grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 }
