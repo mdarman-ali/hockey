@@ -88,7 +88,7 @@ header, main{
     grid-template-columns: repeat(10, 1fr);
     justify-items: center;
     text-align: center;
-    margin: 100px auto;
+    margin: 100px auto 60px auto;
     max-width: 607px;
     
 }
@@ -108,7 +108,10 @@ header, main{
     margin-top: 0;
 }
 
-
+/* Program section */
+.program-3rd-para{
+    width: 520px!important;
+}
 
 
 
@@ -152,6 +155,10 @@ header, main{
     .width-card{
         width: 100%!important;
     }
+    /* Program section */
+    .program-3rd-para{
+    width: 100%!important;
+}
 }
 
 
