@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 
 .c{
-    color: #13131808;
+    color: #ffffff99;
 
     ;
 }
@@ -136,12 +136,15 @@ header, main{
 
 /* Social media hover */
 .borderall{
-    border: 2px solid white;
+    border: 2px solid #13131808;
 }
 .borderall:hover{
     border: 2px solid var(--btn-color);
 }
-
+/* footer section */
+header, main{
+    padding: 0%!important;
+}
 
 
 @media screen and (max-width:600px) {
