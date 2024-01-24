@@ -129,7 +129,9 @@ header, main{
 /* Get a touch section */
 .card figure{
     display: block!important;
-    padding: 1rem;
+}
+.card-compact .card-body{
+    padding: 0;
 }
 
 
