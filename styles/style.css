@@ -114,6 +114,13 @@ header, main{
 }
 
 
+/* Question section */
+.divideall{
+    width: 100%;
+    height: 1px;
+    border: 1px dashed rgba(19, 19, 24, 0.20);
+    margin-top: 100px;
+}
 
 
 
