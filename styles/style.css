@@ -142,9 +142,10 @@ header, main{
     border: 2px solid var(--btn-color);
 }
 /* footer section */
-header, main{
+.footer-title{
     padding: 0%!important;
 }
+
 
 
 @media screen and (max-width:600px) {
@@ -186,7 +187,8 @@ header, main{
     /* Program section */
     .program-3rd-para{
     width: 100%!important;
-}
+    }
+    
 }
 
 
@@ -206,5 +208,8 @@ header, main{
     /* Radial Progress bar */
     .grid-cols-4 {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+    .footerspan-nav1{
+        padding-right: 10px;
     }
 }
