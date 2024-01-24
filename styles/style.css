@@ -136,10 +136,10 @@ header, main{
 
 /* Social media hover */
 .borderall{
-    border: 2px solid #13131808;
+    border-bottom: 2px solid #13131808;
 }
 .borderall:hover{
-    border: 2px solid var(--btn-color);
+    border-bottom: 2px solid var(--btn-color);
 }
 /* footer section */
 .footer-title{
